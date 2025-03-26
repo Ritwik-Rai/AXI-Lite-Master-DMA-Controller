@@ -1,0 +1,8 @@
+0.7
+2020.2
+Nov  8 2024
+22:36:57
+C:/Users/maste/OneDrive/Documents/I-CHIP/project_2/project_2.sim/sim_1/behav/xsim/glbl.v,1724786425,verilog,,,,glbl,,,,,,,,
+C:/Users/maste/OneDrive/Documents/I-CHIP/project_2/project_2.srcs/sim_1/new/dma_testbench.v,1742985933,verilog,,,,master_dma_controller_tb,,,,,,,,
+C:/Users/maste/OneDrive/Documents/I-CHIP/project_2/project_2.srcs/sources_1/new/FIFO.v,1741455203,verilog,,C:/Users/maste/OneDrive/Documents/I-CHIP/project_2/project_2.srcs/sources_1/new/MASTER-DMA.v,,sync_fifo,,,,,,,,
+C:/Users/maste/OneDrive/Documents/I-CHIP/project_2/project_2.srcs/sources_1/new/MASTER-DMA.v,1742977075,verilog,,C:/Users/maste/OneDrive/Documents/I-CHIP/project_2/project_2.srcs/sim_1/new/dma_testbench.v,,master_dma_controller,,,,,,,,

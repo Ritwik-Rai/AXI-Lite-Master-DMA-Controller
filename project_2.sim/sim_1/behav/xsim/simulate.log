@@ -1,0 +1,51 @@
+Time resolution is 1 ps
+Time:                    0, State: Read=x Write=x, FIFO count= x
+Time:                 5000, State: Read=0 Write=0, FIFO count= 0
+Starting test: Transfer of 8 words
+Time:               125000, State: Read=1 Write=0, FIFO count= 0
+Time:               135000, State: Read=2 Write=0, FIFO count= 0
+Time:               165000, State: Read=1 Write=0, FIFO count= 0
+Time:               175000, State: Read=2 Write=0, FIFO count= 1
+Time:               185000, State: Read=2 Write=1, FIFO count= 2
+Time:               195000, State: Read=2 Write=2, FIFO count= 2
+Time:               205000, State: Read=1 Write=2, FIFO count= 2
+Time:               215000, State: Read=2 Write=2, FIFO count= 3
+Time:               235000, State: Read=2 Write=3, FIFO count= 2
+Time:               245000, State: Read=1 Write=1, FIFO count= 2
+Time:               255000, State: Read=2 Write=2, FIFO count= 3
+Time:               265000, State: Read=2 Write=2, FIFO count= 4
+Time:               285000, State: Read=1 Write=2, FIFO count= 3
+Time:               295000, State: Read=2 Write=3, FIFO count= 3
+Time:               305000, State: Read=2 Write=1, FIFO count= 4
+Time:               315000, State: Read=2 Write=2, FIFO count= 4
+Time:               325000, State: Read=1 Write=2, FIFO count= 4
+Time:               335000, State: Read=2 Write=2, FIFO count= 5
+Time:               355000, State: Read=2 Write=3, FIFO count= 4
+Time:               365000, State: Read=1 Write=1, FIFO count= 4
+Time:               375000, State: Read=2 Write=2, FIFO count= 5
+Time:               385000, State: Read=2 Write=2, FIFO count= 6
+Time:               405000, State: Read=1 Write=2, FIFO count= 5
+Time:               415000, State: Read=2 Write=3, FIFO count= 5
+Time:               425000, State: Read=2 Write=1, FIFO count= 6
+Time:               435000, State: Read=2 Write=2, FIFO count= 6
+Time:               445000, State: Read=3 Write=2, FIFO count= 6
+Time:               455000, State: Read=3 Write=2, FIFO count= 7
+Time:               465000, State: Read=3 Write=2, FIFO count= 6
+Time:               475000, State: Read=3 Write=3, FIFO count= 5
+Time:               485000, State: Read=3 Write=1, FIFO count= 5
+Time:               495000, State: Read=3 Write=2, FIFO count= 5
+Time:               525000, State: Read=3 Write=2, FIFO count= 4
+Time:               535000, State: Read=3 Write=3, FIFO count= 3
+Time:               545000, State: Read=3 Write=1, FIFO count= 3
+Time:               555000, State: Read=3 Write=2, FIFO count= 3
+Time:               585000, State: Read=3 Write=2, FIFO count= 2
+Time:               595000, State: Read=3 Write=3, FIFO count= 1
+Time:               605000, State: Read=3 Write=1, FIFO count= 1
+Time:               615000, State: Read=3 Write=2, FIFO count= 1
+Time:               645000, State: Read=3 Write=2, FIFO count= 0
+Time:               655000, State: Read=3 Write=3, FIFO count= 0
+Time:               665000, State: Read=3 Write=4, FIFO count= 0
+Time:               675000, State: Read=0 Write=4, FIFO count= 0
+Time:               685000, State: Read=0 Write=0, FIFO count= 0
+TEST PASSED: All 8 words transferred correctly!
+$finish called at time : 865 ns : File "C:/Users/maste/OneDrive/Documents/I-CHIP/project_2/project_2.srcs/sim_1/new/dma_testbench.v" Line 187
