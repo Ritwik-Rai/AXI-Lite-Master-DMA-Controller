@@ -1,0 +1,135 @@
+#-----------------------------------------------------------
+# Vivado v2024.2 (64-bit)
+# SW Build 5239630 on Fri Nov 08 22:35:27 MST 2024
+# IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
+# SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
+# Start of session at: Wed Mar 26 16:17:27 2025
+# Process ID         : 4572
+# Current directory  : C:/Users/maste/OneDrive/Documents/I-CHIP/project_2
+# Command line       : vivado.exe -gui_launcher_event rodinguilauncherevent42476 C:\Users\maste\OneDrive\Documents\I-CHIP\project_2\project_2.xpr
+# Log file           : C:/Users/maste/OneDrive/Documents/I-CHIP/project_2/vivado.log
+# Journal file       : C:/Users/maste/OneDrive/Documents/I-CHIP/project_2\vivado.jou
+# Running On         : LAPTOP-3K4TLJ9H
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 22631
+# Processor Detail   : Intel(R) Core(TM) i5-1035G1 CPU @ 1.00GHz
+# CPU Frequency      : 1190 MHz
+# CPU Physical cores : 4
+# CPU Logical cores  : 8
+# Host memory        : 8320 MB
+# Swap memory        : 16106 MB
+# Total Virtual      : 24426 MB
+# Available Virtual  : 7437 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/maste/OneDrive/Documents/I-CHIP/project_2/project_2.xpr
+INFO: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'C:/Users/maste/OneDrive/Documents/I-CHIP/project_2/project_2.gen/sources_1'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2024.2/data/ip'.
+open_project: Time (s): cpu = 00:00:05 ; elapsed = 00:00:07 . Memory (MB): peak = 1240.168 ; gain = 136.098
+update_compile_order -fileset sources_1
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'master_dma_controller_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/maste/OneDrive/Documents/I-CHIP/project_2/project_2.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'D:/Xilinx/Vivado/2024.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'master_dma_controller_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/maste/OneDrive/Documents/I-CHIP/project_2/project_2.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj master_dma_controller_tb_vlog.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/maste/OneDrive/Documents/I-CHIP/project_2/project_2.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot master_dma_controller_tb_behav xil_defaultlib.master_dma_controller_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2024.2.0
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2024.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot master_dma_controller_tb_behav xil_defaultlib.master_dma_controller_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 1240.168 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '5' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/maste/OneDrive/Documents/I-CHIP/project_2/project_2.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "master_dma_controller_tb_behav -key {Behavioral:sim_1:Functional:master_dma_controller_tb} -tclbatch {master_dma_controller_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source master_dma_controller_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+Time:                    0, State: Read=x Write=x, FIFO count= x
+Time:                 5000, State: Read=0 Write=0, FIFO count= 0
+Starting test: Transfer of 8 words
+Time:               125000, State: Read=1 Write=0, FIFO count= 0
+Time:               135000, State: Read=2 Write=0, FIFO count= 0
+Time:               165000, State: Read=1 Write=0, FIFO count= 0
+Time:               175000, State: Read=2 Write=0, FIFO count= 1
+Time:               185000, State: Read=2 Write=1, FIFO count= 2
+Time:               195000, State: Read=2 Write=2, FIFO count= 2
+Time:               205000, State: Read=1 Write=2, FIFO count= 2
+Time:               215000, State: Read=2 Write=2, FIFO count= 3
+Time:               235000, State: Read=2 Write=3, FIFO count= 2
+Time:               245000, State: Read=1 Write=1, FIFO count= 2
+Time:               255000, State: Read=2 Write=2, FIFO count= 3
+Time:               265000, State: Read=2 Write=2, FIFO count= 4
+Time:               285000, State: Read=1 Write=2, FIFO count= 3
+Time:               295000, State: Read=2 Write=3, FIFO count= 3
+Time:               305000, State: Read=2 Write=1, FIFO count= 4
+Time:               315000, State: Read=2 Write=2, FIFO count= 4
+Time:               325000, State: Read=1 Write=2, FIFO count= 4
+Time:               335000, State: Read=2 Write=2, FIFO count= 5
+Time:               355000, State: Read=2 Write=3, FIFO count= 4
+Time:               365000, State: Read=1 Write=1, FIFO count= 4
+Time:               375000, State: Read=2 Write=2, FIFO count= 5
+Time:               385000, State: Read=2 Write=2, FIFO count= 6
+Time:               405000, State: Read=1 Write=2, FIFO count= 5
+Time:               415000, State: Read=2 Write=3, FIFO count= 5
+Time:               425000, State: Read=2 Write=1, FIFO count= 6
+Time:               435000, State: Read=2 Write=2, FIFO count= 6
+Time:               445000, State: Read=3 Write=2, FIFO count= 6
+Time:               455000, State: Read=3 Write=2, FIFO count= 7
+Time:               465000, State: Read=3 Write=2, FIFO count= 6
+Time:               475000, State: Read=3 Write=3, FIFO count= 5
+Time:               485000, State: Read=3 Write=1, FIFO count= 5
+Time:               495000, State: Read=3 Write=2, FIFO count= 5
+Time:               525000, State: Read=3 Write=2, FIFO count= 4
+Time:               535000, State: Read=3 Write=3, FIFO count= 3
+Time:               545000, State: Read=3 Write=1, FIFO count= 3
+Time:               555000, State: Read=3 Write=2, FIFO count= 3
+Time:               585000, State: Read=3 Write=2, FIFO count= 2
+Time:               595000, State: Read=3 Write=3, FIFO count= 1
+Time:               605000, State: Read=3 Write=1, FIFO count= 1
+Time:               615000, State: Read=3 Write=2, FIFO count= 1
+Time:               645000, State: Read=3 Write=2, FIFO count= 0
+Time:               655000, State: Read=3 Write=3, FIFO count= 0
+Time:               665000, State: Read=3 Write=4, FIFO count= 0
+Time:               675000, State: Read=0 Write=4, FIFO count= 0
+Time:               685000, State: Read=0 Write=0, FIFO count= 0
+TEST PASSED: All 8 words transferred correctly!
+$finish called at time : 865 ns : File "C:/Users/maste/OneDrive/Documents/I-CHIP/project_2/project_2.srcs/sim_1/new/dma_testbench.v" Line 187
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'master_dma_controller_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:15 . Memory (MB): peak = 1264.305 ; gain = 24.137
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Wed Mar 26 16:19:58 2025...

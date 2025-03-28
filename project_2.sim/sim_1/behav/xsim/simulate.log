@@ -48,4 +48,4 @@ Time:               665000, State: Read=3 Write=4, FIFO count= 0
 Time:               675000, State: Read=0 Write=4, FIFO count= 0
 Time:               685000, State: Read=0 Write=0, FIFO count= 0
 TEST PASSED: All 8 words transferred correctly!
-$finish called at time : 865 ns : File "C:/Users/maste/OneDrive/Documents/I-CHIP/project_2/project_2.srcs/sim_1/new/dma_testbench.v" Line 187
+$finish called at time : 865 ns : File "C:/Users/maste/OneDrive/Documents/PROJECTS/project_2/project_2.srcs/sim_1/new/dma_testbench.v" Line 161
